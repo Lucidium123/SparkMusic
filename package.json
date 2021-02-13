@@ -1,0 +1,22 @@
+{
+  "name": "-asdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dbd.js": "^1.9.4",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "canvacord": "^5.0.8",
+    "discord-tts": "^1.0.3",
+    "node-fetch": "^2.6.1"
+  }
+}
