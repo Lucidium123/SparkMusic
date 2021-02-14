@@ -1,6 +1,6 @@
 module.exports = ({
   name: "help",
-  code: `$title[Server Prefix: $getServerVar[prefix]] $addField[Fun:; \`anime\`, \`avatar\`, \`invite\`, \`meme\`, \`ping\`, \`tts\`]
+  code: $title[Help] $addField[Fun:; \`anime\`, \`avatar\`, \`invite\`, \`meme\`, \`ping\`, \`tts\`]
   $addField[Mod:; \`checkwarns\`, \`warn\`, \`removewarn\`, \`setprefix\`, \`ban\`, \`kick\`, \`starboard(name of channel dont mention it)\`, \`setreqstar(starcount)\`, \`setchatbot(having bugs at the moment)\`]
   $addField[Music:; \`play\`, \`stop\`, \`queue\`, \`pause\`, \`nowplaying\`, \`resume\`, \`loop\`]`
 })
