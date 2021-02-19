@@ -71,23 +71,6 @@ $onlyperms[manageserver;{description:You don't have permission to \`MANAGE_SERVE
 $cooldown[5s;{description:Please wait %time%}{color:ff2050}]`
 })
 
-bot.command({
- name: "$alwaysExecute",
- code: `$jsonRequest[https://api.udit.gq/api/chatbot?message=$replaceText[$message; ;+];message;]
- $onlyForChannels[$getServerVar[channels];]
- $onlyIf[$getServerVar[channels]=!not set;]`
-});
-
-bot.command({
- name: "setchatbot",
- code: `set chatbot channel to <#$findChannel[$message]>
- $setServerVar[channels;$findChannel[$message]]
- $onlyPerms[manageserver;U need manageservers permission]
- $argsCheck[1;I need a channel!]
- `
-});
-
-
 bot.variables({
   starmsg: "",
   reqstar: "0",
