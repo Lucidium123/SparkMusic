@@ -1,12 +1,12 @@
 const dbd = require("dbd.js")
 const Discord = require('discord.js');
-Discord.Constants.DefaultOptions.ws.properties.$browser = "Discord Android"
+Discord:.Constants.DefaultOptions.ws.properties.$browser = "Discord Android"
 const discordTTS = require("discord-tts");
 
 
 const bot = new dbd.Bot({
-  token: "Token Here :D",
-  prefix: "Prefix Here :D"
+  :token: "Token Here :D",
+  :prefix: "Prefix Here :D"
 })
 
 bot.onMessage()
